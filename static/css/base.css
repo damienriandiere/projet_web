@@ -1,0 +1,28 @@
+body {
+    background-image: url("../../Pictures/Background/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Palatino';
+    color: white;
+}
+
+.nav-link-underline {
+    text-decoration: underline; /* Ajoute un soulignement dans la navbar à l'élément qui correspond à la page actuelle.*/
+}
+
+.custom-dropdown {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.card-text {
+    color: white;
+}

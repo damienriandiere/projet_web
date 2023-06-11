@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/bootstrap-icons.js"></script>
+  <link rel="icon" href="Pictures/favicon/Logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="static/css/base.css">
+  <script src="static/js/base.js"></script>
+  <title>Algo de Kerpo | A propos</title>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <div class="text-left">
+        <div class="collapse navbar-collapse">
+          <!--Ajout du bouton retour en arrière-->
+          <button class="btn btn-dark bg-transparent border-0" onclick="goBack()"><i
+              class="bi bi-arrow-left-circle text-white"></i></button>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!--Ajout du logo-->
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="home.html"><img src="Pictures/favicon/Logo.ico"
+                  alt="Logo" height="50" width="60"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-right">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="blog.html">News</a>
+            </li>
+            <!--Ajout du bouton dropdown-->
+            <li class="nav-item dropdown">
+              <a id="dropdownbutton" class="nav-link text-white dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Analyse
+              </a>
+              <ul class="dropdown-menu custom-dropdown">
+                <li><strong><a class="nav-link text-white text-center" href="pronostics.html">Pronostics</a></strong>
+                </li>
+                <li><strong><a class="nav-link text-white text-center" href="bilan.html">Bilan</a></strong></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-underline text-white" href="informations.html">A propos de nous</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <!--Ajout du container-->
+  <div class="container mt-5">
+    <h3 class="text-center">Qui est Kerpo ?</h3><br>
+    <p>Kerpo, le jeune parieur français de 21 ans originaire de la Sarthe qui se cache derrière ce pseudo intrigant, est
+      un passionné de paris sportifs, en particulier dans le domaine du tennis. Armé de détermination, de connaissances
+      approfondies et d'un esprit analytique affûté, Kerpo a réussi à développer un algorithme révolutionnaire pour les
+      paris sportifs sur le tennis.</p>
+    <p>L'algorithme de Kerpo prend en compte une multitude de facteurs tels que les classements des joueurs, les
+      performances passées, les statistiques clés, les conditions météorologiques et bien d'autres encore. En combinant
+      ces informations précieuses, l'algorithme génère des prédictions éclairées pour les résultats des matchs de
+      tennis.</p>
+    <p>Si vous cherchez des conseils éclairés et une perspective unique dans le domaine des paris sportifs sur le
+      tennis, Kerpo est le parieur à suivre. Sa détermination, son intelligence et son algorithme révolutionnaire font
+      de lui un acteur prometteur dans le monde compétitif des paris sportifs.</p>
+    <p>Préparez-vous à entrer dans l'univers captivant de Kerpo, où l'analyse des données et la passion pour le tennis
+      se rencontrent pour créer une expérience de paris sportifs hors du commun.</p>
+  </div>
+  <br>
+  <div class="text-center">
+    <!--Ajout de la carte Google Maps-->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d683116.7300316099!2d-0.4264477057673438!3d48.02482306683521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e2896ea23f12bb%3A0x30d37521e092a00!2sSarthe!5e0!3m2!1sfr!2sfr!4v1685959125857!5m2!1sfr!2sfr"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="eager"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="text-right">
+    <!--Ajout du bouton retour en haut-->
+    <button onclick="scrollTopFunction()" id="myBtn" class="btn btn-dark  fixed-bottom-right" title="Retour en haut"><i
+        class="bi bi-arrow-up-circle text-white"></i></button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <p>© 2023 Tous droits réservés</p>
+        </div>
+        <div class="col-md-6 text-md-right">
+          <!-- Réseaux sociaux -->
+          <p class="d-inline">Suivez nous sur les réseaux sociaux :</p>
+          <a href="https://t.me/kerpopronos"><img src="Pictures/Footer/logo_telegram.png" alt="Telegram" height="35"
+              width="35"></a>
+          <a href="https://www.snapchat.com/add/damien.rndr"><img src="Pictures/Footer/logo_snapchat.png" alt="Snapchat"
+              height="25" width="25"></a>
+          <a href="https://www.instagram.com/damien.rndr/"><img src="Pictures/Footer/logo_instagram.png" alt="Instagram"
+              height="25" width="25"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
